@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pf.css">
+</head>
+<body>
+     <section id="attack-on-titan" class="detalhe">
+      <h3>Attack on Titan</h3>
+      <p><strong>Sinopse:</strong> A humanidade está à beira da extinção devido aos titãs. Eren Yeager decide lutar pela sobrevivência.</p>
+      <div class="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MGRm4IzK1SQ" title="Attack on Titan Trailer" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="rating">
+        <span>Avaliação:</span>
+        <div class="stars">★★★★★</div>
+      </div>
+    </section>
+</body>
+</html>
