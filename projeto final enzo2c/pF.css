@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #f05;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  
+  .card h3 {
+    color: #f05;
+  }
+  
+  .trailer {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rating {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .stars {
+    color: gold;
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    padding: 7px;
+  }
+
+  footer {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  .imagem {
+    width: 150px;
+    height: 250px;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 600px) {
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
