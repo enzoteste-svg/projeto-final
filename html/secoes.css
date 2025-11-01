@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url('imagens/shadowfundo.png');
+  color: #eee;
+}
+ header {
+    background-color: #242323;
+    padding: 20px;
+    height: 75px;
+  }
+  
+  .logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo span {
+  color: #e50914; /* vermelho escuro estilo Netflix */
+}
+.logoL{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+  max-width: 190vh;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* Seção superior com imagem e sinopse lado a lado */
+.top-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.image-box img {
+  width: 300px;      /* imagem vertical */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.sinopse {
+  flex: 1;
+}
+
+.sinopse h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #ff4444;
+}
+
+.sinopse p {
+  line-height: 1.6;
+  font-size: 2rem;
+}
+
+/* Seção do vídeo */
+.video-section {
+  text-align: center;
+}
+
+.video-section h2 {
+  margin-bottom: 15px;
+  color: #ff4444;
+}
+
+.video-section iframe {
+  width: 100%;
+  max-width: 140vh;
+  height: 65vh;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-box img {
+    width: 80%;
+  }
+
+  .sinopse {
+    text-align: center;
+  }
+}
+    /* BLOG */
+ .new-post {
+      background: #1b1b1b;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
+      margin-bottom: 5vh ;
+    }
+
+    .new-post input, .new-post textarea {
+      width: 100%;
+      background: #222;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 1rem;
+      resize: vertical;
+    }
+
+    .new-post button {
+      background: #ff4444;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .new-post button:hover {
+      background: #ff6666;
+    }
+
+    /* LISTA DE POSTS */
+    .posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .post {
+      background: #1b1b1b;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+      transition: transform 0.2s;
+    }
+
+    .post:hover {
+      transform: translateY(-5px);
+    }
+
+    .post h3 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .post p {
+      color: #ccc;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    /* ESTRELAS */
+    .stars {
+      display: flex;
+      gap: 5px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #444;
+      transition: color 0.2s;
+    }
+
+    .stars .active {
+      color: gold;
+      text-shadow: 0 0 5px #ffcc00;
+    }
+
+    .rating-text {
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 5px;
+    }
+       section h1, h2 {
+      color: #ff4444;
+      text-align: center;
+    }
+  footer {
+  background-color: rgba(0,0,0,0.5);
+  color: #a50000;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15vh;
+  }
+    .footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo span {
+  color: #e50914; /* vermelho escuro estilo Netflix */
+}
+
+.footer-container p {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 20px;
+}
+.social-links a {
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #e50914;
+}
